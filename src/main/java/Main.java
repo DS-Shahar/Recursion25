@@ -24,6 +24,26 @@ class Main {
   }
 
   public static void main(String[] args) {
+    // Code for automatic grading
+    if (args.length > 0) {
+      if (args[0].equals("ex28")) {
+        int a1 = input.nextInt();
+        int d = input.nextInt();
+        int n = input.nextInt();
+        ex28(a1, d, n);
+      } 
+      if (args[0].equals("ex25")) {
+        int n = input.nextInt();
+        ex25(n);
+      }
+      if (args[0].equals("ex26")) {
+        int n = input.nextInt();
+        ex26(n);
+      }      
+      return;
+    }
+
+    // code for self testing by student
     ex25(12);
     // expected output:
     // 1
@@ -44,23 +64,6 @@ class Main {
     // 5
     // 7
     // 9
-  }
-
-  public static void testEx25() {  
-    int n = input.nextInt();
-    ex25(n);
-  }
-  
-  public static void testEx26() {
-    int n = input.nextInt();
-    ex26(n);
-  }
-
-  public static void testEx28() {
-    int a1 = input.nextInt();
-    int d = input.nextInt();
-    int n = input.nextInt();
-    ex28(a1, d, n);
   }
 
 }
