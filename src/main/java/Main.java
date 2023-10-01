@@ -1,4 +1,28 @@
+import java.util.Scanner;
+
 class Main {
+  static Scanner input = new Scanner(System.in);
+
+  /*
+   * print all divisors of n
+   */
+  public static void ex25() {  
+  }
+  
+  /*
+   * Print all even digits of n
+   */
+  public static void ex26(int n) {
+  }
+
+  /*
+   * Print n first elements of arithmetic progression
+   * a1 - first element
+   * d  - difference
+   */
+  public static void ex28(int a1, int d, int n) {
+  }
+
   public static void main(String[] args) {
     ex25(12);
     // expected output:
@@ -22,23 +46,21 @@ class Main {
     // 9
   }
 
-  /*
-   * print all divisors of n
-   */
-  public static void ex25(int n) {  
+  public static void testEx25() {  
+    int n = input.nextInt();
+    ex25(n);
+  }
+  
+  public static void testEx26(int n) {
+    int n = input.nextInt();
+    ex26(n);
   }
 
-  /*
-   * Print all even digits of n
-   */
-  public static void ex26(int n) {
+  public static void testEx28() {
+    int a1 = input.nextInt();
+    int d = input.nextInt();
+    int n = input.nextInt();
+    ex28(a1, d, n);
   }
 
-  /*
-   * Print n first elements of arithmetic progression
-   * a1 - first element
-   * d  - difference
-   */
-  public static void ex28(int a1, int d, int n) {
-  }
 }
