@@ -51,7 +51,7 @@ class Main {
     ex25(n);
   }
   
-  public static void testEx26(int n) {
+  public static void testEx26() {
     int n = input.nextInt();
     ex26(n);
   }
