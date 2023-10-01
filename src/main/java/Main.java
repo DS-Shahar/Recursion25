@@ -6,7 +6,7 @@ class Main {
   /*
    * print all divisors of n
    */
-  public static void ex25() {  
+  public static void ex25(int n) {  
   }
   
   /*
