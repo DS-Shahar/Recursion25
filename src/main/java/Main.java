@@ -9,9 +9,24 @@ class Main {
     // 6
     // 12
   }
-  
-  public static void ex25(int n) {
-    
+
+  /*
+   * print all divisors of n
+   */
+  public static void ex25(int n) {  
   }
-  
+
+  /*
+   * Print all even digits of n
+   */
+  public static void ex26(int n) {
+  }
+
+  /*
+   * Print n first elements of arithmetic progression
+   * a1 - first element
+   * d  - difference
+   */
+  public static void ex28(int a1, int d, int n) {
+  }
 }
