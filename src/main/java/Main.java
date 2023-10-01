@@ -8,6 +8,18 @@ class Main {
     // 4
     // 6
     // 12
+    
+    ex26(365127);
+    // expected output:
+    // 6
+    // 2
+
+    ex28(3, 2, 4);
+    // expected outout:
+    // 3
+    // 5
+    // 7
+    // 9
   }
 
   /*
